@@ -33,6 +33,37 @@ search.addEventListener('click', () => {
     switch (json.weather[0].main){
       case 'Clear':
         image.src = 'assets/images/clear.jpg';
+        break;
+
+      case 'Rain':
+        image.src = 'assets/images/clear.jpg';
+        break;
+
+      case 'Snow':
+        image.src = 'assets/images/clear.jpg';
+        break;
+
+      case 'Clouds':
+        image.src = 'assets/images/clear.jpg';
+        break;
+
+      case 'Haze':
+        image.src = 'assets/images/clear.jpg';
+        break; 
+
+      default:
+        image.src = '':
     }
+
+    temperature.innerHTML = '${parseInt(json.main.temp)}<span>*C</span>';
+    description.innerHTML = '${json.weather[0].description}';
+    humidity.innerHTML = '${json.main.humidty}%';
+    wind.innerHTML = '${parseInt(json.wind.speed)}Km/h';
+
+    weatherBox.style.display = '';
+    weatherDetails.style.display = '';
+    weatherBox.classList.add('fadeIn');
+    weatherDetails.classList.add('fadeIn');
+    container.style.height = '590px';
   })
 })
