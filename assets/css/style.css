@@ -25,7 +25,6 @@ body{
 	border-radius: 18px;
 	font-family: Roboto;, sans-serif;
 	transition: 0.6s ease-out;
-	border: black solid 2px;
 }
 
 .search-box{
@@ -73,14 +72,13 @@ body{
 }
 
 .weather-box{
+	display: flex;
 	text-align: center;
-	width: 60px;
-	height: 60px;
-	border: black solid 2px;
 }
 
 .weather-box img{
-	width: 60px;
+	width: 400px;
+	height: 300px;
 	margin-top: 30px;
 }
 
