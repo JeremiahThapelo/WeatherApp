@@ -18,7 +18,7 @@ body{
 .container{
 	position: relative;
 	width:400px;
-	height: 1050px;
+	height: 105px;
 	background: #fff;
 	padding: 28px 32px;
 	overflow: hidden;
@@ -73,7 +73,7 @@ body{
 
 .weather-box{
 	text-align: center;
-	border: solid;
+	border: solid 2px;
 	color: black;
 }
 
