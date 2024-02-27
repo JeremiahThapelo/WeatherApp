@@ -20,7 +20,7 @@ body{
 	width:400px;
 	height: 105px;
 	background: #fff;
-	
+	padding: 28px 32px;
 	overflow: hidden;
 	border-radius: 18px;
 	font-family: Roboto;, sans-serif;
@@ -73,6 +73,7 @@ body{
 
 .weather-box{
 	text-align: center;
+	border: solid;
 }
 
 .weather-box img{
