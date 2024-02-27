@@ -7,8 +7,7 @@
 }
 
 body{
-	height: 100vh;
-	display: flex;
+	
 	align-items: center;
 	justify-content: center;
 	background: #06283D;
@@ -17,7 +16,8 @@ body{
 
 .container{
 	position: relative;
-	
+	width:400px;
+	height: 105px;
 	background: #fff;
 	padding: 28px 32px;
 	overflow: hidden;
