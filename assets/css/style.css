@@ -33,6 +33,7 @@ body{
 	display: flex;
 	align-item: center;
 	justify-content: space-bottom:
+	overflow: hidden;
 }
 .search-box input{
 	color: #06283D;
