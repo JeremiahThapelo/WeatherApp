@@ -73,6 +73,7 @@ body{
 
 .weather-box{
 	text-align: center;
+	height: 100px;
 }
 
 .weather-box img{
