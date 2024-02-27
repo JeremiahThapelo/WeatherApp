@@ -73,6 +73,8 @@ body{
 
 .weather-box{
 	text-align: center;
+	width: auto;
+	height: auto;
 	border: solid 2px;
 	color: black;
 }
