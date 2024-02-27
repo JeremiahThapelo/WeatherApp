@@ -33,7 +33,6 @@ body{
 	display: flex;
 	align-item: center;
 	justify-content: space-bottom:
-	overflow: hidden;
 }
 .search-box input{
 	color: #06283D;
@@ -74,7 +73,6 @@ body{
 
 .weather-box{
 	text-align: center;
-	width: 600px;
 	height: 60px;
 	border: solid 2px;
 	background: black;
