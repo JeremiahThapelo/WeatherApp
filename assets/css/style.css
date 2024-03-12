@@ -33,7 +33,8 @@ body{
   justify-content: center;
   background: url("/assets/images/clear.jpg");
   background-position: center;
-  transform: scale(1.03);
+  transform: scale(1.03) perspective(200px);
+  cursor: pointer;
 }
 
 .right-info{
